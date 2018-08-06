@@ -19,7 +19,45 @@ li:hover {
 
 .wrapper {
   height: 100vh;
-  background-color: rgba(200, 200, 200, .1);
+  background-image: url("patrick-tomasso-71909-unsplash.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  // background-color: rgba(200, 200, 200, .1);
+}
+
+.wrapper h1 {
+  padding: 20px;
+  color: white;
+}
+
+.hone {
+  background-color: rgba(20, 20, 20, .45);
+  border-radius: 5%;
+}
+
+.hone:hover {
+  background-color: rgba(20, 20, 20, .85);
+  border-radius: 5%;
+}
+
+.banner {
+  height: 100vh;
+  background-image: url("jelleke-vanooteghem-488228-unsplash.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.htwo {
+  background-color: rgba(220, 220, 220, .8);
+  border-radius: 20%;
+}
+
+.allof {
+  padding: 15px;
 }
 
 // .list li {
