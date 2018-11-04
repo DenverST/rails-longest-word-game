@@ -8,7 +8,7 @@ class GamesController < ApplicationController
     @message = ""
     @lettero = params[:letters].split("|").join.downcase
     @new_word = params[:word].dup
-    @try_word = params[:word].split('')
+    @try_word = params[:word].downcase.split('')
     url = URI.parse("https://wagon-dictionary.herokuapp.com/#{params[:word]}")
     information = JSON.parse(url.open.read)
 
